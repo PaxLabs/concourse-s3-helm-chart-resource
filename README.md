@@ -6,6 +6,7 @@ Concourse resource for S3-based helm chart repositories. Piggy-backs on the [hel
 
 * `aws_access_key_id`: *Required* The AWS access key to use when accessing the bucket.
 * `aws_secret_access_key`: *Required* The AWS secret key to use when accessing the bucket.
+* `aws_session_token`: *Optional* The AWS session token to use when accessing the bucket.
 * `s3_bucket_name`: *Required* The name of the bucket.
 * `s3_bucket_path`: *Required* Repository path in the bucket.
 * `chart_name`: *Required* The name of the chart.
